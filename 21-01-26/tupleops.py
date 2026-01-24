@@ -10,7 +10,7 @@ print(t1[3])
 t = t1+t2
 print(t)
 
-nt = ((t1),(t2),(t))
+nt = (t1, t2, t)
 print(nt)
 
 m = t1*2
