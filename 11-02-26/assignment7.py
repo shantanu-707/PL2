@@ -25,8 +25,14 @@ class Manager(Employee):
         super().__init__(empl_id, salary, name, age)
         self._dept = dept
 
+
     def get_manager_info(self):
         print(self._dept)
+        print(self._name)
+        print(self._age)
+        print(self._empl_id)
+        print(self._salary)
+
 
 x = Employee("123","20000","Mike","Olsen")
 y = Person("Ty","18")
