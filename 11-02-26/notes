@@ -1,0 +1,22 @@
+Inheritance
+
+> At least 2 classes hsould be there
+> person class - attributes(name,age)
+> employee class - attributes(employee_id, salary)
+> manager class - attribute(dept)
+
+super, parent, name -- class are equivalent
+child, derived, subclass -- class are equivalent
+
+4 types of inheritance:
+> Single inheritance - only 1 derived class
+> Multiple inheritance - base and single derived class; A & B --> C
+> Multi level inheritance - when derived class is derived from another derived class; A -> B -> C
+> Heirarchy inheritance - combination of Multiple and Multilevel
+
+If we consider work() method for person class, same method can be used in the employee class for work.
+
+Method overriding - A subclass can modify or extend for behaviours of inherited methods.
+
+Super method is a built in function in python used to call methods of parent class from the child class.
+Its mainly used to initialise parent class attributes and supports proper inheritance flow.
