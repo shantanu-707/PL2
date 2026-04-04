@@ -1,6 +1,6 @@
 import csv
 
-data = [['Name', 'Age'], ['Alice', '25'], ['Bob', '30']]
+data = [['Name', 'Age'], ['Alice', '25'], ['Bobby', '30']]
 with open('output.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(data)
