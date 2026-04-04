@@ -1,5 +1,1 @@
-[
-  {"name":"A", "age": 18,"salary":50000},
-  {"name":"B", "age": 20,"salary":60000},
-  {"name":"C", "age": 21,"salary":90000}
-]
+[{"name": "Shantanu", "age": 19, "salary": 400000}, {"name": "Sushma", "age": 44, "salary": 100000}]
